@@ -1,0 +1,48 @@
+
+body{
+	color:white;
+}
+
+
+
+ 
+#wrapper{
+background-image: url(./images2/berlin.jpg);
+height:605px;
+background-size:cover;
+text-align: center;
+padding-top: 100px;
+}
+
+
+#wrapper p{
+color:black;
+}
+
+#wrapper h1{
+color:white;
+}	
+
+
+#footer{
+	background-color:black;
+	font-size: 20px;
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    #background-color: #000;
+    height: 55px;/* or however high you would like */
+}
+
+
+#.spacer{
+	height: 20em
+}
+
+
+
+table{
+	background-color:#17FCF7;
+
+}
