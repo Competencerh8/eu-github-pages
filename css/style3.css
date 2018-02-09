@@ -1,0 +1,256 @@
+.column-layout{
+  max-width: 1200px;
+  background-color: grey;
+  margin:40px auto 0 auto;
+  line-height: 1.60;
+  padding: 20px 50px;
+  display:flex;
+  color:white;
+}
+
+.main-column{
+flex:3;
+order:2;
+}
+
+.sidebarone{
+flex:1;
+order:1;
+}
+.sidebartwo{
+flex:2;
+order:3;
+}
+
+.call-out-container{
+	max-width: 1200px;
+	margin:40px auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+	color:white;
+}
+
+.call-out{
+	padding:20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	flex-basis:30%;
+	
+}
+
+.call-out:nth-child(1){background-color: #022A3D;}
+.call-out:nth-child(2){background-color: #4D6975;}
+.call-out:nth-child(3){background-color: #022A3D;}
+
+
+#footer3{
+float:left;
+width:5%;
+background-color:black;
+position :fixed;
+background-color: #50808C;/*F4F7FA;/* or however high you would like */
+height:655px; 
+left:0px;
+top:0px;
+bottom:0px;
+font-size: 20px;
+
+}
+
+
+#footer3 a:hover {
+    color:black;
+}
+.fa-facebook {
+color:white;
+position: absolute;
+left: 15px;
+padding-top: 300px;
+font-size: 30px;
+}
+.fa-twitter {
+color:white;
+position: absolute;
+left: 15px;
+padding-top: 150px;
+font-size: 30px;
+}
+
+.home {
+position: absolute;
+left: 14px;
+padding-top: 5px;
+
+}
+
+
+
+#Formulaire{
+padding-left: 350px;
+  
+  top:200px;
+}
+
+.container { 
+width: 100%; /*Set the width of the entire website here */ 
+margin-right: auto; 
+margin-left: auto; /* Margin-left and right are set to auto to center the container */ 
+} 
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {  
+margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */ 
+} 
+.eleven { 
+width: 91.5%; 
+float: left; 
+margin-left: 2%; 
+} 
+
+.ten { 
+width: 83%; 
+ 	float: left; 
+ 	margin-left: 2%; 
+ } 
+ .nine { 
+ 	width: 74.5%; 
+ 	float: left; 
+ 	margin-left: 2%; 
+ } 
+ .eight { 
+ 	width: 66%; 
+ 	float: left; 
+ 	margin-left: 2%; 
+ } 
+ .seven { 
+ 	width: 57.5%; 
+ 	float: left; 
+ 	margin-left: 2%; 
+ } 
+.six { 
+ 	width: 49%; /* This div spans six columns (the entire row)*/ 
+ 	float: left; 
+ 	margin-left: 2%; 
+ } 
+ .five { 
+ 	width: 40.5%; /* This div spans five columns */ 
+ 	margin-left: 2%; 
+ 	float:left; 
+ } 
+ .four { 
+ 	width: 32%; 
+ 	float:left; 
+ 	margin-left: 2%; 
+ } 
+ .three { 
+ 	width: 23.5%; 
+ 	float:left; 
+	margin-left: 2%; 
+ } 
+ .two { 
+ 	width: 15%; 
+ 	float:left; 
+ 	margin-left: 2%; 
+ 
+ }
+
+.one { 
+ 	width: 6.5%; 
+ 	float:left; 
+ 	margin-left: 2%; 
+} 
+ .row { 
+ 	width: 100%; 
+ 	clear: both; /* Clear creates new styles for the next row */ 
+ 	padding: 0px; 
+	margin: 0px; 
+ } 
+ 
+ 
+ header { 
+ 	height: 73px; 
+ 	background-color: grey; 
+ } 
+ .hero-image { 
+ 	height: 510px; 
+   	background: url('../images/berlin.jpg') no-repeat center center fixed;  
+ } 
+ 
+ 
+.row3 .six, .row3 .three { 
+ 	height: 333px; 
+ 	background-color: ; 
+ } 
+
+ .row3 .left{
+ 	background-image: url("../images/industry.png");
+ 	background-size: cover;
+
+ }
+
+.row3 .middle{
+ 	background-image: url("../images/industry2.jpg");
+ 	background-size: cover;
+ }
+
+ .row3 .right{
+ 	background-image: url("../images/essai1.jpg");
+ 	background-size: cover;
+ }
+
+.row4 .six, .row4 .three { 
+ 	height: 333px; 
+ 	background-color: #F9690E; 
+ } 
+
+ .row4 .left{
+ 	background-image: url("../images/baltic.jpg");
+ 	background-size: cover;
+
+ }
+
+.row4 .middle{
+ 	background-image: url("../images/cinqueterre.jpg");
+ 	background-size: cover;
+ }
+
+ .row4 .right{
+ 	background-image: url("../images/london.jpg");
+ 	background-size: cover;
+ }
+
+
+ .row5 .six, .row5 .three { 
+ 	height: 333px; 
+	background-color: #FDE3A7; 
+ } 
+
+.row5 .left{
+ 	background-image: url("../images/cit3.jpg");
+ 	background-size: cover;
+
+ }
+
+.row5 .middle{
+ 	background-image: url("../images/building2.jpg");
+ 	background-size: cover;
+ }
+
+ row5 .middle2{
+ 	background-image: url("../images/amsterdam.png");
+ 	background-size: cover;
+ }
+
+row5 .right {
+ 	background-image: url("../images/alps.png");
+ 	background-size: cover;
+ }
+
+
+
+ .row6 .six, .row6 .three { 
+	height: 333px; 
+	background-color: #F27935; 
+ } 
+ .last { 
+ 	height: 73px; 
+	background-color: #d13328; 
+} 
